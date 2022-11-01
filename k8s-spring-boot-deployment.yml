@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: phanee47/jhooq-docker-demo:jhooq-docker-demo
+          #image: phanee47/jhooq-docker-demo:jhooq-docker-demo
+          image: 509802029116.dkr.ecr.us-east-1.amazonaws.com/docker-demo
           ports:
             - containerPort: 8080
           env:
