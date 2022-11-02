@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: phanee47/docker-demo:version3
+          image: phanee47/docker-demo:version1
           #image: 509802029116.dkr.ecr.us-east-1.amazonaws.com/docker-demo
           ports:
             - containerPort: 8080
